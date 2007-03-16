@@ -8,19 +8,20 @@ Group:		Development/Languages/Python
 Source0:	http://icepick.info/projects_old/python-musicbrainz/%{name}-%{version}.tar.gz
 # Source0-md5:  8f07d75e67f3b2f1de89327126c0f418
 URL:		http://icepick.info/projects/python-musicbrainz/
-BuildRequires:	python-devel
 BuildRequires:	python-ctypes
+BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python-modules
+Requires:	python-ctypes
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Requires:	python-ctypes
 
 %description
 The MusicBrainz client library is a development library geared towards
 developers who wish to add MusicBrainz lookup capabilities to their
 applications.
+
 The client library includes the following features:
     * Lookup Audio CD metadata using CD Index Discids
     * Calculate Relatable TRM acoustic fingerprints
@@ -31,6 +32,7 @@ The client library includes the following features:
 Biblioteka klienta MusicBrainz jest biblioteką rozwojową stworzoną dla
 twórców oprogramowania, którzy chcą dodać mozliwości MusicBrainz do
 swoich aplikacji.
+
 Biblioteka kliencka posiada następujące możliwości:
     * Znajdowanie metadanych płyt Audio CD przy użyciu CD Index Discid
     * Obliczanie "odcisku palca" RTRM
