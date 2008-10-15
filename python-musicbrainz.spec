@@ -1,3 +1,5 @@
+# TODO
+# - conflicts with package from libmusicbrainz.spec, remove either one?
 Summary:	Python module for MusicBrainz
 Summary(pl.UTF-8):	Moduł języka Python dla MusicBrainz
 Name:		python-musicbrainz
