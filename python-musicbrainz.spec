@@ -4,7 +4,7 @@ Summary:	Python module for MusicBrainz
 Summary(pl.UTF-8):	Moduł języka Python dla MusicBrainz
 Name:		python-musicbrainz
 Version:	1.0b1
-Release:	4
+Release:	5
 License:	LGPL
 Group:		Development/Languages/Python
 Source0:	http://icepick.info/projects_old/python-musicbrainz/%{name}-%{version}.tar.gz
