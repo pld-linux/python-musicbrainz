@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-python ./setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
+%py_install
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %py_postclean
 
