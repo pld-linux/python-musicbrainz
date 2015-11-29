@@ -13,7 +13,7 @@ URL:		http://icepick.info/projects/python-musicbrainz/
 BuildRequires:	python-ctypes
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 Requires:	python-ctypes
 BuildArch:	noarch
